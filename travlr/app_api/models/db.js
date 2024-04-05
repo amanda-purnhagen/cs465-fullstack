@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const host = process.env.DB_HOST || '127.0.0.1';
-const port = '27017';
-const dbURI = `mongodb://${host}:${port}/travlr`;
+//const port = '27017';
+//const dbURI = `mongodb://${host}:${port}/travlr`;
+const dbURI = `mongodb://${host}/travlr`;
 const readLine = require('readline');
 
 // Build the connection string and set the connection timeout.
